@@ -1,10 +1,10 @@
 # Magitnup's Dance School
 
-### my first go at coding
-### I wanted to creat a website which is simple and displays information to the (fictional) dance school
-### furthermore I only used the bare basics of html and css
+### My first go at coding.
+### I wanted to create a website which displays simple information about a (fictional) dance school.
 
-+ I started with navigations
++ I only used basic of html and css
++ started with navigations
 + because I couldn't see through the line of code well, I started giving some text paragraphs to the different files
 + registration -> form
 + Schedule -> table (happy I remembered to use on empty <th> element!! :D)

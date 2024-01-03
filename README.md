@@ -9,3 +9,5 @@
 + registration -> form
 + Schedule -> table (happy I remembered to use on empty <th> element!! :D)
 + Events & Performances -> unordered list
+
++ the navigation didn't work, after trying out some changes I found out, that I had to remove the "pages/" from every other page than index and add an "../" to get back to index.

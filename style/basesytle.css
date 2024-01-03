@@ -3,9 +3,9 @@
 }
 
 .text-white {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
-.reasons-box {
-	background-color: chocolate;
+.purple-box {
+	background-color: rgb(42, 0, 109);
 }

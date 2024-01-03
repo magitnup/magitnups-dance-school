@@ -11,3 +11,4 @@
 + Events & Performances -> unordered list
 
 + the navigation didn't work, after trying out some changes I found out, that I had to remove the "pages/" from every other page than index and add an "../" to get back to index.
++ added a google maps in contacts: website used -> https://www.maps.ie/create-google-map/

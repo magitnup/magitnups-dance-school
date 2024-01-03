@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <title>Registration</title>
-        <link href="../style/basesytle.css" rel="stylesheet" type="text/css" />
-    </head>
+  <head>
+    <title>Registration Magitnup</title>
+    <link href="../style/basesytle.css" rel="stylesheet" type="text/css" />
+  </head>
 
-    <body>
-        <h1 class="text-center">Register to join us on the dance floor!</h1>
+  <body>
+    <div>
+        <h1>Magitnup's Dance School</h1>
+    <hr>
+    </div>
+    
+    <nav class="text-center">
+      <a href="../index.html">Home</a>
+      <a href="pages/schedule.html">Schedule</a>
+      <a href="pages/registration.html">Registration</a>
+      <a href="pages/events&performances.html">Events and Performances</a>
+      <a href="pages/the-team.html">The Team</a>
+      <a href="pages/contact.html">Contact</a>
+    </nav>
+
+<!--add whatever needs to be added-->
+    <form>
+        <h2>Register to join us on the dance floor!</h2>
         <p>
             Ready to step into the world of dance with us?<br>
             Register now and find your inner Dancer!<br>
@@ -16,15 +32,26 @@
         <form method="POST" action="https://formdump.codeinstitute.net/">
             <div>
                 <label for="name-field">Name:</label>
-                <input id="name-field" type="text" name="full_name" placeholder="Max Mustermann">
+                <input id="name-field" type="text" name="first-name" placeholder="Max">
+                <input id="fam-name-field" type="text" name="fam-name" placeholder="Mustermann">
             </div>
             <div>
                 <label for="email-field">Email:</label>
                 <input id="email-field" type="email" name="email" placeholder="muster@mail.com">
-            </div><br>
-            <input type="submit" value="Register">
+            </div>
+            <div>
+                <label for="phone-number">Phone:</label>
+                <input id="phone-number" type="text" name="phone-number" placeholder="+43 123 456789">
+            </div>
+            <br>
+        <input type="submit" value="Register">
                 <!--form registration?-->
+    </form>
 
-        </form>
-    </body>
+    <footer class="text-center">
+      <a href="https://www.facebook.com" target="_blank" rel="noopener">Find us on Facebook</a>
+      <a href="https://www.instagram.com" target="_blank" rel="noopener">Find us on Instagram</a>
+      <a href="https://www.twitter.com" target="_blank" rel="noopener">Find us on X</a>
+    </footer>
+  </body>
 </html>

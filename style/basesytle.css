@@ -1,11 +1,52 @@
+header {
+    width:100%;
+    background-color: antiquewhite;
+    color: purple;
+    padding: 5px 20px 0;
+    font-family: 'Lato', Arial, sans-serif;
+
+}
+
+h1 {
+    font-family: 'Merienda One', 'Brush Script MT', cursive;
+    text-align: left;
+}
+
+a:hover {
+    color: black
+}
+
+header ~ p {
+    background-color: antiquewhite;
+}
+
+body {
+    background-color: antiquewhite;
+    color: black;
+    font-family: 'Lato', Arial, sans-serif;
+}
+
 .text-center {
     text-align: center;
 }
 
-.text-white {
-    color: rgb(255, 255, 255);
+tr {
+	height: 69px;
 }
 
-.purple-box {
-	background-color: rgb(42, 0, 109);
+th ~ th {
+	border: 5px solid black;
+	min-width: 150px;
+    text-align:center
+}
+
+td {
+	border: 1px solid black;
+    min-width: 150px;
+    text-align: center;
+}
+
+footer {
+    color: purple;
+    font-family: 'Lato', Arial, sans-serif;
 }

@@ -1,101 +1,132 @@
 header {
-    width:100%;
-    background-color: antiquewhite;
-    color: purple;
-    padding: 5px 20px 0;
-    font-family: 'Lato', Arial, sans-serif;
-
+  background-color: antiquewhite;
+  color: darkred;
+  padding: 5px 20px 0;
+  font-family: "Lato", Arial, sans-serif;
 }
 
 h1 {
-    font-family: 'Merienda One', 'Brush Script MT', cursive;
-    text-align: left;
-    
+  font-family: "Merienda One", "Brush Script MT", cursive;
+  text-align: center;
+  font-size: 55px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  display: block;
+  color: antiquewhite;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: black;
 }
 
 a:hover {
-    color: black
+  color: red;
 }
 
 header ~ p {
-    background-color: antiquewhite;
+  background-color: antiquewhite;
 }
 
 body {
-    background-color: antiquewhite;
-    color: black;
-    font-family: 'Lato', Arial, sans-serif;
-    margin: 0;
-    overflow-x: hidden;
-    width: 100%;
-    height: 100%;
+  background-color: antiquewhite;
+  color: black;
+  font-family: "Lato", Arial, sans-serif;
+  margin: 0;
+  width: 100%;
+  height: 100%;
 }
 
 #content {
-    width: 90%;
-    margin: 0 auto;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  column-gap: 2%;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 tr {
-	height: 69px;
+  height: 69px;
 }
 
 th ~ th {
-	border: 5px solid black;
-	min-width: 150px;
-    text-align:center
+  border: 5px solid black;
+  min-width: 150px;
+  text-align: center;
 }
 
 td {
-	border: 1px solid black;
-    min-width: 150px;
-    text-align: center;
+  border: 1px solid black;
+  min-width: 150px;
+  text-align: center;
 }
 
 footer {
-    color: purple;
-    font-family: 'Lato', Arial, sans-serif;
-    margin-top: 2em;
+  color: darkred;
+  font-family: "Lato", Arial, sans-serif;
+  margin-top: 1%;
 }
 
 .banner {
-    margin-top: 1%;
+  margin-top: 1%;
+  overflow-x: hidden;
 }
 
 .representation {
-    width: 1920px;
-    height: 526px;
-    background-image: url(../images/representation.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center top;
+  width: 1920px;
+  height: 526px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 .gallery {
-    display: inline-block;
-    border: 1px solid purple;
-    width: 300px;
+  display: inline-block;
+  border: 1px solid darkred;
+  width: 300px;
 }
 
 .gallery img {
-    width: 300px;
-    height: 200px;
+  width: 300px;
+  height: 200px;
 }
 
-
 .gallery .description {
-    padding: 10px;
-    text-align: center;
+  padding: 10px;
+  text-align: center;
 }
 
 iframe {
-    width: 70%;
-    height: 300px;
-    border: 0;
-    margin-left: 15%;
-    margin-right: 15%;
+  width: 70%;
+  height: 300px;
+  border: 0;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+table {
+  margin-top: 2%;
 }

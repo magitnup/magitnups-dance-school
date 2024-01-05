@@ -1,64 +1,97 @@
 <!DOCTYPE html>
 <html lang="en-US">
- <head>
+  <head>
     <title>Registration Magitnup</title>
     <link href="../style/basesytle.css" rel="stylesheet" type="text/css" />
- </head>
+  </head>
 
- <body>
+  <body>
     <header>
       <h1>Magitnup's Dance School</h1>
-    <hr>
+      <hr />
       <nav class="text-center">
-        <a href="../index.html">Home</a>
-        <a href="schedule.html">Schedule</a>
-        <a href="registration.html">Registration</a>
-        <a href="events&performances.html">Events and Performances</a>
-        <a href="the-team.html">The Team</a>
-        <a href="contact.html">Contact</a>
-      </nav>  
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="registration.html">Registration</a></li>
+          <li>
+            <a href="events&performances.html">Events and Performances</a>
+          </li>
+          <li><a href="the-team.html">The Team</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <div class="banner">
-      <div class="representation"><!--also placeholder--></div>
+      <div
+        class="representation"
+        style="background-image: url(../images/registration_dance.jpg)"
+      ></div>
     </div>
 
-                <!--add whatever needs to be added-->
-  
+    <!--add whatever needs to be added-->
+
     <div id="content">
       <h2>Register to join us on the dance floor!</h2>
       <p>
-          Ready to step into the world of dance with us?<br>
-          Register now and find your inner Dancer!<br>
-          We hope to see you on the dance floor!<br>
+        Ready to step into the world of dance with us?<br />
+        Register now and find your inner Dancer!<br />
+        We hope to see you on the dance floor!<br />
       </p>
       <form method="POST" action="https://formdump.codeinstitute.net/">
-          <div>
-              <label for="name-field">Name:</label>
-              <input id="name-field" type="text" name="first-name" placeholder="Max">
-              <input id="fam-name-field" type="text" name="fam-name" placeholder="Mustermann">
-          </div>
-          <div>
-              <label for="email-field">Email:</label>
-              <input id="email-field" type="email" name="email" placeholder="muster@mail.com">
-          </div>
-          <div>
-              <label for="phone-number">Phone:</label>
-              <input id="phone-number" type="text" name="phone-number" placeholder="+43 123 456789">
-          </div>
-          <br>
-       <input type="submit" value="Register">
-              <!--form registration?-->
+        <div>
+          <label for="name-field">Name:</label>
+          <input
+            id="name-field"
+            type="text"
+            name="first-name"
+            placeholder="first name"
+          />
+          <input
+            id="fam-name-field"
+            type="text"
+            name="fam-name"
+            placeholder="family name"
+          />
+        </div>
+        <div>
+          <label for="email-field">Email:</label>
+          <input
+            id="email-field"
+            type="email"
+            name="email"
+            placeholder="muster@mail.com"
+          />
+        </div>
+        <div>
+          <label for="phone-number">Number:</label>
+          <input
+            id="phone-number"
+            type="tel"
+            name="phone-number"
+            placeholder="+43 123 456789"
+          />
+        </div>
+
+        <br />
+        <input type="submit" value="Register" />
+        <!--form registration?-->
       </form>
     </div>
 
     <footer class="text-center">
-      <a href="https://www.facebook.com" target="_blank" rel="noopener">Find us on Facebook</a>
-      <a href="https://www.instagram.com" target="_blank" rel="noopener">Find us on Instagram</a>
-      <a href="https://www.twitter.com" target="_blank" rel="noopener">Find us on X</a>
+      <a href="https://www.facebook.com" target="_blank" rel="noopener"
+        >Find us on Facebook</a
+      >
+      <a href="https://www.instagram.com" target="_blank" rel="noopener"
+        >Find us on Instagram</a
+      >
+      <a href="https://www.twitter.com" target="_blank" rel="noopener"
+        >Find us on X</a
+      >
 
       <p>Copyright © Magitnup's Dance School 2024</p>
-      
     </footer>
- </body>
+  </body>
 </html>

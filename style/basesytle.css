@@ -106,6 +106,7 @@ footer {
 }
 
 .banner {
+  width: 100%;
   margin-top: 1%;
   overflow-x: hidden;
 }
@@ -146,3 +147,24 @@ iframe {
 table {
   margin-top: 2%;
 }
+
+@media only screen and (min-width: 768px) {
+  .display-large {
+    visibility: inherit;
+  }
+  .display-small {
+    display: none;
+  }
+  td {
+    width: 15%;
+  }
+} /*laptop/pc*/
+
+@media only screen and (max-width: 768px) {
+  .display-large {
+    display: none;
+  }
+  .display-small {
+    visibility: inherit;
+  }
+} /*phones*/

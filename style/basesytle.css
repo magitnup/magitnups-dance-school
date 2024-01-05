@@ -10,6 +10,7 @@ header {
 h1 {
     font-family: 'Merienda One', 'Brush Script MT', cursive;
     text-align: left;
+    
 }
 
 a:hover {
@@ -24,6 +25,8 @@ body {
     background-color: antiquewhite;
     color: black;
     font-family: 'Lato', Arial, sans-serif;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .text-center {
@@ -49,4 +52,35 @@ td {
 footer {
     color: purple;
     font-family: 'Lato', Arial, sans-serif;
+}
+
+.banner {
+    margin-top: 1%
+}
+
+.representation {
+    width: 1920px;
+    height: 526px;
+    background-image: url(../images/representation.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.gallery {
+    display: inline-block;
+    border: 1px solid purple;
+    width: 300px;
+    margin: 2%;
+}
+
+.gallery img {
+    width: 300px;
+    height: 200px;
+}
+
+
+.gallery .description {
+    padding: 10px;
+    text-align: center;
 }

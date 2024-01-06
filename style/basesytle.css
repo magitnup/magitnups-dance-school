@@ -157,7 +157,7 @@ table {
     display: none;
   }
   td {
-    width: 15%;
+    width: 15%; /*found out that this doesn't really do anything... but too scared to take it out, as there has been instances, where it didn't work anymore afterwards, don't know why*/
   }
 }
 

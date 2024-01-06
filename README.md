@@ -24,10 +24,6 @@ That's the motto of Magitnup's Dance School. They try to show the magical world 
 
 ![four-picture menu](small_menu.png)
 
-+ Audio:
-    + Plays the famous song "Wiener Blut", which let's you listen to a beautiful 'Viennese Waltz'
-![audio button](audio_button.png)
-
 + Register:
     + The 'Registration' tab, allows you to sign up for your first visit.
 

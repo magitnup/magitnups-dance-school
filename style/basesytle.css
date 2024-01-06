@@ -148,10 +148,6 @@ table {
   margin-top: 2%;
 }
 
-#audio_with_controls {
-  text-align: center;
-}
-
 /*laptop/pc*/
 @media only screen and (min-width: 768px) {
   .display-large {

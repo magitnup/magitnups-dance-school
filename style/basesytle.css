@@ -148,6 +148,11 @@ table {
   margin-top: 2%;
 }
 
+#audio_with_controls {
+  text-align: center;
+}
+
+/*laptop/pc*/
 @media only screen and (min-width: 768px) {
   .display-large {
     visibility: inherit;
@@ -158,8 +163,9 @@ table {
   td {
     width: 15%;
   }
-} /*laptop/pc*/
+}
 
+/*phones*/
 @media only screen and (max-width: 768px) {
   .display-large {
     display: none;
@@ -167,4 +173,4 @@ table {
   .display-small {
     visibility: inherit;
   }
-} /*phones*/
+}
